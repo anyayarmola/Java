@@ -9,13 +9,13 @@ public class CarChoose{
     }
 
 
-    public static List<Car> getCarsByMark(List<Car> cars){
+    public static List<Car> getCarsByCompany(List<Car> cars){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the mark of the car you want to get");
         String mark = scanner.nextLine();
         List<Car> carList = new ArrayList<>();
         for (Car c : cars){
-            if(c.getMark().toLowerCase().equals(mark.toLowerCase())){
+            if(c.getCompany().toLowerCase().equals(mark.toLowerCase())){
                 carList.add(c);
             }
         }
