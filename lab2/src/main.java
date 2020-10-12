@@ -17,7 +17,6 @@ public class main{
         list.add(car3);
         list.add(car4);
 
-
         CarChoose result = new CarChoose();
         List<Car> resultList1 = result.getCarByCompany(list);
         System.out.println("---------\n");
