@@ -4,8 +4,8 @@ import java.util.List;
 public class main{
 
     public static void main(String[] args){
-        Car car0 = new Car(10, "BMV","X2",2020,"silver",145000.20,4523);
-        Car car1 = new Car(11, "BMV","X5",2019,"white",156000.40,3289);
+        Car car0 = new Car(10, "BMW","X2",2020,"silver",145000.20,4523);
+        Car car1 = new Car(11, "BMW","X5",2019,"white",156000.40,3289);
         Car car2 = new Car(12, "Audi","A3",2017,"black",132000.60,8526);
         Car car3 = new Car(13, "Ford","GT350",2015,"white",130000.30,1575);
         Car car4 = new Car(14, "Honda","Civic 220",2020,"white",162000.20,5487);
