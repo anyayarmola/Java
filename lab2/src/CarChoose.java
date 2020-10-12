@@ -28,7 +28,7 @@ public class CarChoose{
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the model");
         String model = scanner.nextLine();
-        System.out.println("Enter number of car's years you want to get");
+        System.out.println("Enter number of car`s year");
         Integer n = scanner.nextInt();
         List<Car> carList = new ArrayList<>();
         for (Car c : cars){
